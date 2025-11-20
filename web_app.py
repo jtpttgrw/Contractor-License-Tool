@@ -30,7 +30,7 @@ menu = st.sidebar.selectbox("Navigate", [
 ])
 
 if menu == "Home":
-    st.image("https://i.imgur.com/5fL3kYh.png", use_column_width=True)
+    st.image("https://i.ibb.co/0jD4QhK/contractorlicensecpa-logo.png", use_column_width=True)
     st.write("Welcome! Use the sidebar to:")
     st.write("• Generate CPA financial reports")
     st.write("• Manage leads & send emails")
@@ -95,3 +95,4 @@ elif menu == "Refer Overflow":
 
 
 st.sidebar.info("Call 901-869-1687\nContractorLicenseCPA.com")
+
