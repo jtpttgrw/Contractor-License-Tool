@@ -6,7 +6,6 @@ from datetime import datetime
 
 st.set_page_config(page_title="ContractorLicenseCPA Tool", layout="centered")
 
-# Permanent embedded logo (base64 - no external link ever)
 logo_base64 = "data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMwZjE3MmEiLz4KICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMDAiIHI9IjYwIiBmaWxsPSIjZmJiZjI0Ii8+CiAgPHBhdGggZD0iTTEwMCAxMDAgTDIwMCAxMDAgTDE4MCA3MCBMMTIwIDcwIFoiIGZpbGw9IiMxZTI5M2IiLz4KICA8dGV4dCB4PSIyNTAiIHk9IjEwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ4IiBmaWxsPSIjZmJiZjI0IiBmb250LXdlaWdodD0iYm9sZCI+Q29udHJhY3RvckxpY2Vuc2VDUEEuY29tPC90ZXh0PgogIDx0ZXh0IHg9IjI1MCIgeT0iMTQwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjgiIGZpbGw9IndoaXRlIj5CdWlsdCBmb3IgQ29udHJhY3RvcnMg4oCiIEJhY2tlZCBieSBDUEEgRXhwZXJ0aXNlPC90ZXh0PgogIDx0ZXh0IHg9IjY1MCIgeT0iMTcwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM5NGEzYjgiPjkwMS04NjktMTY4NzwvdGV4dD4KPC9zdmc+Cg=="
 st.image(logo_base64, use_column_width=True)
 
@@ -92,4 +91,5 @@ elif menu == "Refer Overflow":
     st.info("Just add the lead above and email your referral partner.")
 
 st.sidebar.info("Joseph Tyler Pettigrew, CPA\n901-869-1687\nContractorLicenseCPA.com")
+
 
