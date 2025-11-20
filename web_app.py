@@ -6,7 +6,6 @@ from datetime import datetime
 
 st.set_page_config(page_title="ContractorLicenseCPA Tool", layout="centered")
 
-# Permanent embedded logo — short, safe, and beautiful (no external link)
 st.image("https://files.catbox.moe/6q2j1p.png", use_column_width=True)
 
 st.markdown("<h1 style='text-align:center;color:#1e40af;'>ContractorLicenseCPA.com</h1>", unsafe_allow_html=True)
@@ -91,6 +90,7 @@ elif menu == "Refer Overflow":
     st.info("Just add the lead above and email your referral partner.")
 
 st.sidebar.info("Joseph Tyler Pettigrew, CPA\n901-869-1687\nContractorLicenseCPA.com")
+
 
 
 
