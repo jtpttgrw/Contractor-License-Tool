@@ -30,7 +30,7 @@ menu = st.sidebar.selectbox("Navigate", [
 ])
 
 if menu == "Home":
-    st.image("https://via.placeholder.com/800x200?text=ContractorLicenseCPA.com", use_column_width=True)
+    st.image("https://i.imgur.com/5fL3kYh.png", use_column_width=True)
     st.write("Welcome! Use the sidebar to:")
     st.write("• Generate CPA financial reports")
     st.write("• Manage leads & send emails")
@@ -92,5 +92,6 @@ elif menu == "Refer Overflow":
     st.write("Enter client details and forward to your referral CPA partner.")
     state = st.selectbox("State", list(STATE_TEMPLATES.keys()))
     st.write(f"Forward to your {state} partner — you earn 35% with zero work")
+
 
 st.sidebar.info("Call 901-869-1687\nContractorLicenseCPA.com")
